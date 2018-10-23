@@ -15,6 +15,7 @@ namespace Bankuppgift
         public void showCustomer()
         {
             Console.WriteLine(name);
+            //test
 
         }
 

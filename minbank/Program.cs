@@ -12,7 +12,7 @@ namespace Bankuppgift
         static List<customer> customerList = new List<Customer>
 
 
-        static void Main(string[] args)
+        static void Main(string[] args) blyat
         {
             List<Customer> list = new List<Customer>();
             Console.WriteLine("Welcome to the bank of souls!");

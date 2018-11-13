@@ -5,19 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Bankuppgift
+
 {
-    class Customer
+    class customer
     {
-        public string name { get; set; }
-        public int balance { get; set; }
-
-
-        public void showCustomer()
+        public string Namn { get; set; }
+        public string CustomerInfo()
         {
-            Console.WriteLine(name);
-            //test
-
+            return this.Namn;
         }
-
     }
 }
